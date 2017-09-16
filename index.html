@@ -13,55 +13,65 @@
 	<div id="headerCtnr">
 		<header><img src='assets/images/header.png' alt='headerImg' width='70%'></header>
 		<h1> you will have 30 seconds to answer 5 questions</h1>
-		<h1>let see how well you know Stranger Things!</h1>
+		<h1>let see how well you know about Stranger Things!</h1>
 		<button id ="startBtn"> start the trivia </button>
 	</div>
 
 	<div id="quizCtnr">
 		<div class="jumbo">
 			<p> Time Remaining: <span id = "timer">30 </span> Seconds</p>
-			<h2 id ="Q1"> </h1>
+
+			<h2>1. Where does the story occur?</h2>
+				<input type="radio" name="q1" value="INDIANA">INDIANA 
+				<input type="radio" name="q1" value="OKLAHOMA">OKLAHOMA
+				<input type="radio" name="q1" value="KANSAS">KANSAS
+				<input type="radio" name="q1" value="MISSISSIPPI">MISSISSIPPI
+		
+			<h2>2. In what decade is the Netflix original series set?</h2>
+				<input type="radio" name="q2" value="1990S">1990S 
+				<input type="radio" name="q2" value="1970S">1970S
+				<input type="radio" name="q2" value="1980S">1980S
+				<input type="radio" name="q2" value="1960S">1960S
+
+			<h2>3. What is Eleven's superpower?</h2>
+				<input type="radio" name="q3" value="TELEPATHY">TELEPATHY
+				<input type="radio" name="q3" value="TELEKINESIS">TELEKINESIS
+				<input type="radio" name="q3" value="SUPERHUMAN SPEED">SUPERHUMAN SPEED
+				<input type="radio" name="q3" value="SUPERHUMAN STRENGTH">SUPERHUMAN STRENGTH
+
+			<h2>4. How does Joyce communicate with her son Will when he is taken?</h2>
+				<input type="radio" name="q4" value="THROUGH SENSORY DEPRIVATION">THROUGH SENSORY DEPRIVATION
+				<input type="radio" name="q4" value="THROUGH THE LOOKING-GLASS">THROUGH THE LOOKING-GLASS
+				<input type="radio" name="q4" value="BY PAINTING ON THE WALLS">BY PAINTING ON THE WALLS
+				<input type="radio" name="q4" value="WITH CHRISTMAS LIGHTS">WITH CHRISTMAS LIGHTS
+
+			<h2>5. The 'Stranger Things' storyline draws from the work of _____</h2>
+				<input type="radio" name="q5" value="STEPHEN KING">STEPHEN KING
+				<input type="radio" name="q5" value="JOHN CARPENTER">JOHN CARPENTER
+				<input type="radio" name="q5" value="STEVEN SPIELBERG">STEVEN SPIELBERG
+				<input type="radio" name="q5" value="ALL OF THEM">ALL OF THEM
+
+		<br>
+		<button id ="submitBtn"> Submit </button>
 		</div>
 	</div>
 
 	<div id="scoreboard">
 		<div class="jumbo">
-			<p> Time is up! </p>
+			<p> Your score: </p>
 			<p> Correct Answers: <span id=correctAns></span></p>
 			<p> Wrong Answers: <span id=wrongAns></span></p>
 			<p> Unanswered: <span id=unanswered></span></p>
+		
+			<div class="container4gif">
+				<div id="gif0"><img src="assets/images/0.gif" alt="youre_dead"></div>
+				<div id="gif1"><img src="assets/images/1.gif" alt="pretty_bad"></div>
+				<div id="gif2"><img src="assets/images/2.gif" alt="bang"></div>
+				<div id="gif3"><img src="assets/images/3.gif" alt="gasp"></div>
+				<div id="gif4"><img src="assets/images/4.gif" alt="pretty_good"></div>
+				<div id="gif5"><img src="assets/images/5.gif" alt="youre_eleven"></div>
+			</div>
 		</div>
 	</div>
 </body>
 </html>
-
-<!--Where does the story occur?
-INDIANA [correct]
-OKLAHOMA
-KANSAS
-MISSISSIPPI
-
-In what decade is the Netflix original series set?
-1990S
-1970S
-1980S [correct]
-1960S
-
-What is Eleven's superpower?
-TELEPATHY
-TELEKINESIS [correct]
-SUPERHUMAN SPEED
-SUPERHUMAN STRENGTH
-
-How does Joyce communicate with her son Will when he is taken?
-THROUGH SENSORY DEPRIVATION
-THROUGH THE LOOKING-GLASS
-BY PAINTING ON THE WALLS
-WITH CHRISTMAS LIGHTS [correct]
-
-The 'Stranger Things' storyline draws from the work of _____
-STEPHEN KING
-JOHN CARPENTER
-STEVEN SPIELBERG
-ALL OF THEM [correct]-->
-

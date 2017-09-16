@@ -1,31 +1,42 @@
 body {
-	font-family: 'Gloria Hallelujah', cursive;
 	font-size: 14px;
 	line-height: 34px;
 	background: url("../images/darkness.png");
-	text-align: center;
+	
 }
 
 #headerCtnr {
 	margin: 80px;
 	padding: 20px;
+	text-align: center;
 }
 
 .jumbo {
-	padding: 100px;
-	background-color: ghostwhite;
-	margin: 40px;
+	padding: 20px;
+	background-color: black;
+	margin: 100px;
+	color: white;
 }
 
 h1 {
 	color: red;
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+}
+
+h2 {
+	color: red;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 
 p {
-	
+	text-align: center;
 }
 
-#startBtn {
+#startBtn, #submitBtn {
 	padding: 10px 20px;
+}
 
+.container4gif {
+	text-align: center;
 }
