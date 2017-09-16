@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	var timeCount = 30;
+	var timeCount = 60;
 	var correctCount = 0;
 	var wrongCount = 0;
 	var unansCount = 0;
@@ -43,7 +43,7 @@ $(document).ready(function(){
 
 	function reset (){
 	location.reload();
-	var timeCount = 30;
+	var timeCount = 60;
 	var correctCount = 0;
 	var wrongCount = 0;
 	var unansCount = 0;
