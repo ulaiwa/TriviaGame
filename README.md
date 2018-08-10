@@ -9,4 +9,4 @@ features:
 - score tracker
 - page auto refresh
 
-deployed: https://ulaiwa.github.io/TriviaGame/
+https://ulaiwa.github.io/TriviaGame/
