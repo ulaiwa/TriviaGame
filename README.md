@@ -8,3 +8,5 @@ features:
 - timer
 - score tracker
 - page auto refresh
+
+deployed: https://ulaiwa.github.io/TriviaGame/
