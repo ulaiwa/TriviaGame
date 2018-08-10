@@ -2,7 +2,7 @@
 
 ![alt text](/ScreenShot.png)
 
-Goal: finished five questions in 60 seconds countdown
+Goal: finish five questions in 60 seconds countdown
 
 features:
 - timer
