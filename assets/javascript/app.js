@@ -13,7 +13,7 @@ $(document).ready(function(){
 	$('#gif3').hide()
 	$('#gif4').hide()
 	$('#gif5').hide()
-	
+
 	$("#startBtn").on("click", function(){
 		$("#headerCtnr").hide();
 		$("#quizCtnr").show();
@@ -120,7 +120,7 @@ $(document).ready(function(){
 	$('#unanswered').html(unansCount);
 
 	// var gifs = ["assets/images/0.gif", "assets/images/1.gif" ];
-		
+
 		if (correctCount === 0) {
 			$('#gif0').show()
 			$('#gif1').hide()
@@ -136,7 +136,7 @@ $(document).ready(function(){
 			$('#gif3').hide()
 			$('#gif4').hide()
 			$('#gif5').hide()
-			
+
 		}
 
 		else if (correctCount === 2){
@@ -175,24 +175,5 @@ $(document).ready(function(){
 			$('#gif5').show();
 		}
 
-		
-
-		
-
-
-
-		// if (correctCount === 1) {
-		// 	$('#gif1').show()
-		// }
-		// else{
-		// 	$('#gif1').hide();
-		// }
-
-
-		// for (var i = 0; i < gifs.length; i++;) {
-		// 	$('#gifPlaceHere').gifs[0];
-		// }
-		
 	}
 });
-
